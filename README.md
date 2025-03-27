@@ -25,7 +25,7 @@ Donghua Video Extractor is a Python-based web scraper designed specifically for 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/sudh15/donghua-video-extractor.git
+   git clone https://github.com/sudh15/Donghua-Video-Extractor.git
    cd donghua-video-extractor
    ```
 
@@ -73,7 +73,7 @@ Donghua Video Extractor is a Python-based web scraper designed specifically for 
 ## Project Structure
 
 ```
-donghua_video_extractor/
+Donghua-Video-Extractor/
 ├── donghua_extractor.py
 ├── requirements.txt
 ├── static/
