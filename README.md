@@ -47,7 +47,7 @@ Donghua Video Extractor is a Python-based web scraper designed specifically for 
 
 3. **Run the Application:**
    ```bash
-   python app.py
+   python donghua_extractor.py
    ```
 
 4. **Open Your Browser:**
@@ -74,7 +74,7 @@ Donghua Video Extractor is a Python-based web scraper designed specifically for 
 
 ```
 donghua_video_extractor/
-├── app.py
+├── donghua_extractor.py
 ├── requirements.txt
 ├── static/
 │   └── style.css
@@ -95,4 +95,4 @@ Donghua Video Extractor is provided "as-is" without any warranties. Use it at yo
 
 ## Contact
 
-For questions, suggestions, or contributions, please contact [Your Name](mailto:your.email@example.com) or visit [Geeta Tech Hub](https://geetatechhub.blogspot.com/).
+For questions, suggestions, or contributions, please contact me via [email](mailto:sudhanshuthakur15@gmail.com) or visit [Geeta Tech Hub](https://geetatechhub.blogspot.com/).
