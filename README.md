@@ -1,6 +1,8 @@
-# Donghua Video Extractor
+# Donghua Video Extractor V1
 
 Donghua Video Extractor is a Python-based web scraper designed specifically for extracting video details from Donghua streaming sites. It targets sites that host Donghua (Chinese animated series) and extracts essential information such as the post title, Dailymotion video link, and embed code. The results are displayed in a professional grid layout with a simple selection interface.
+
+Note: Only scrap Dailymotion Videos
 
 ## Features
 
