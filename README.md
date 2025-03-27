@@ -5,12 +5,8 @@ Donghua Video Extractor is a Python-based web scraper designed specifically for 
 ## Features
 
 - **Targeted Scraping:** Extracts only donghua post links from a given target URL (e.g., `https://animexin.dev/`).
-- **Filtering:** Only includes links that belong to the target domain and contain "episode" in their URL, filtering out unwanted links (e.g., Facebook, Discord).
 - **Video Details Extraction:** Retrieves the post title, Dailymotion video link, and embed code.
-- **Professional UI:** Displays results in a modern, grid-based layout similar to IMDB.
 - **Selection Interface:** If multiple posts are found, a selection table titled "Select Link to Scrap" is shown with only the video titles.
-- **Site Information Box:** Displays the Target URL, Target Site Name, and Target IP.
-- **Navigation:** Includes back buttons for easy navigation between pages.
 - **Copyright Protection:** The code enforces copyright using encrypted values so that the attribution cannot be easily removed.
 
 ## Installation
