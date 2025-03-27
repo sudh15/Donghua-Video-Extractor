@@ -73,7 +73,7 @@ Donghua Video Extractor is a Python-based web scraper designed specifically for 
 ## Project Structure
 
 ```
-Donghua-Video-Extractor/
+donghua-video-extractor/
 ├── donghua_extractor.py
 ├── requirements.txt
 ├── static/
