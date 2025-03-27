@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Link to Scrap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .select-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: #222;
+            box-shadow: 0 0 10px rgba(255,255,255,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .select-table th, .select-table td {
+            padding: 12px 15px;
+            border: 1px solid #444;
+        }
+        .select-table th {
+            background: #ff4b2b;
+            color: #fff;
+            font-size: 18px;
+        }
+        .select-table td a {
+            color: #0ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .select-table td a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select Link to Scrap</h1>
+    <div class="site-details-box">
+        <p><strong>Target URL:</strong> {{ site_details.target_url }}</p>
+        <p><strong>Target Site Name:</strong> {{ site_details.target_site_name }}</p>
+        <p><strong>Target IP:</strong> {{ site_details.target_ip }}</p>
+    </div>
+    <table class="select-table">
+        <thead>
+            <tr>
+                <th>Video Title</th>
+                <th>Scrap Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for video in videos %}
+            <tr>
+                <td>{{ video.title }}</td>
+                <td>
+                    <a href="{{ url_for('scan', url=base_url, selected=video.post_link) }}">Scrap Details</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <button onclick="window.history.back()">Back</button>
+    <div class="footer">{{ copyright_text }}</div>
+</body>
+</html>
